@@ -29,3 +29,8 @@
 1. 准备 qemu 环境，可以通过 scoop 安装，也可以直接去[官网](https://qemu.weilnetz.de/w64/2022/)下载最新的安装包，安装好后可以用 `qemu-system-riscv64 --version` 看看是否成功。
 2. 注意看根目录下的 rust-toolchain.toml，它里面指定了使用 nightly-2022-08-05 的版本。然后如果 rustup 用了镜像源，镜像源那里可能只有近几个月的版本，就会提示找不到该版本。切回官方源就好了。
 3. 然后直接在 os1 目录运行 `$env:LOG="TRACE";make run`，等着依赖安装好，应该就能正常显示结果了。
+
+## 2022-10-30
+
+RISC-V 手册读了大半。
+
