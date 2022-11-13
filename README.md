@@ -120,3 +120,6 @@ lab1 差不多解决了。
 
 做 lab3 遇到了奇怪的问题。`make run BASE=0` 和 `make run BASE=1` 都好使，轮到 `make run BASE=2` 却在调用 `rust-objcopy` 时出了错，显示 `llvm-objcopy.exe: error: permission denied`。看了看结果，到一半的时候失败了。和群里的各位讨论一番无果，只好手动构建好用户应用。也许是 windows 的坑？
 
+## 2022-11-13
+
+看清华 OS 第十一次课。读 lab4。
